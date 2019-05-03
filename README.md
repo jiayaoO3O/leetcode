@@ -7,4 +7,5 @@
 |  9   | 简单 |  [回文数](https://jiayaoo3o.github.io/2019/05/01/9-回文数/)  |
 |  13  | 简单 | [罗马数字转整数](https://jiayaoo3o.github.io/2019/05/01/13-罗马数字转整数/) |
 |  14  | 简单 | [最长公共前缀](https://jiayaoo3o.github.io/2019/05/02/14-最长公共前缀/) |
+|  20  | 简单 | [有效的括号](https://jiayaoo3o.github.io/2019/05/03/20-有效的括号/) |
 
