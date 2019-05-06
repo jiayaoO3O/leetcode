@@ -12,4 +12,5 @@
 |  26  | 简单 | [删除排序数组中的重复项](https://jiayaoo3o.github.io/2019/05/04/26-删除排序数组中的重复项/) |
 |  27  | 简单 | [移除元素](https://jiayaoo3o.github.io/2019/05/04/27-移除元素/) |
 |  28  | 简单 | [实现strStr()](https://jiayaoo3o.github.io/2019/05/06/28-实现strStr/) |
+|  35  | 简单 | [搜索插入位置](https://jiayaoo3o.github.io/2019/05/06/35-搜索插入位置/) |
 
