@@ -242,5 +242,25 @@ namespace leetcode
             }
             return nums.Length;//如果前面的循环都找不到插入位置说明在最后面一个
         }
+
+        //53.最大子序和
+        //https://leetcode-cn.com/problems/maximum-subarray/
+        public int MaxSubArray(int[] nums)
+        {
+            if (nums.Length == 0)
+            {
+                return 0;
+            }
+            int sum = 0;
+            int max = nums[0];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                sum += nums[i];
+                sum = sum < 0 ? 0 : sum;
+
+                max = sum > max ? sum : max;
+            }
+            return max;
+        }
     }
 }
