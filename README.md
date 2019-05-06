@@ -10,5 +10,6 @@
 |  20  | 简单 | [有效的括号](https://jiayaoo3o.github.io/2019/05/03/20-有效的括号/) |
 |  21  | 简单 | [合并两个有序链表](https://jiayaoo3o.github.io/2019/05/04/21-合并两个有序链表/) |
 |  26  | 简单 | [删除排序数组中的重复项](https://jiayaoo3o.github.io/2019/05/04/26-删除排序数组中的重复项/) |
-|      | 简单 | [移除元素](https://jiayaoo3o.github.io/2019/05/04/27-移除元素/) |
+|  27  | 简单 | [移除元素](https://jiayaoo3o.github.io/2019/05/04/27-移除元素/) |
+|  28  | 简单 | [实现strStr()](https://jiayaoo3o.github.io/2019/05/06/28-实现strStr/) |
 
