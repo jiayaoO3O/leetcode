@@ -16,4 +16,5 @@
 |  53  | 简单 | [最大子序和](https://jiayaoo3o.github.io/2019/05/06/53-最大子序和/) |
 |  58  | 简单 | [最后一个单词的长度](https://jiayaoo3o.github.io/2019/05/06/58-最后一个单词的长度/) |
 |  66  | 简单 |   [加一](https://jiayaoo3o.github.io/2019/05/07/66-加一/)    |
+|  67  | 简单 | [二进制求和](https://jiayaoo3o.github.io/2019/05/07/67-二进制求和/) |
 
