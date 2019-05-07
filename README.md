@@ -17,4 +17,5 @@
 |  58  | 简单 | [最后一个单词的长度](https://jiayaoo3o.github.io/2019/05/06/58-最后一个单词的长度/) |
 |  66  | 简单 |   [加一](https://jiayaoo3o.github.io/2019/05/07/66-加一/)    |
 |  67  | 简单 | [二进制求和](https://jiayaoo3o.github.io/2019/05/07/67-二进制求和/) |
+|  69  | 简单 | [x的平方分根](https://jiayaoo3o.github.io/2019/05/07/69-x的平方分根/) |
 
