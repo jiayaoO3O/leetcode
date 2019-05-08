@@ -9,6 +9,13 @@ namespace leetcode
         public ListNode next;
         public ListNode(int x) { val = x; }
     }
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int x) { val = x; }
+    }
     class Solution
     {
         //1.两数之和
@@ -384,6 +391,28 @@ namespace leetcode
                 }
             }
             return head;
+        }
+
+        //100.相同的树
+        //https://leetcode-cn.com/problems/same-tree/
+        public bool IsSameTree(TreeNode p, TreeNode q)
+        {
+            if (p == null && q == null)
+            {
+                return true;
+            }
+            if (p == null && q != null || p != null && q == null)
+            {
+                return false;
+            }
+            if (p.val != q.val)
+            {
+                return false;
+            }
+            else
+            {
+                return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
+            }
         }
     }
 }
