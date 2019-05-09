@@ -414,5 +414,23 @@ namespace leetcode
                 return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
             }
         }
+
+        //101.对称二叉树
+        //https://leetcode-cn.com/problems/symmetric-tree/
+        public bool IsSymmetric(TreeNode root)
+        {
+            return IsSymmetricTree(root, root);
+        }
+        public bool IsSymmetricTree(TreeNode p, TreeNode q)
+        {
+            if (p != null && q == null || p == null && q != null)
+            {
+                return false;
+            }
+            else
+            {
+                return (p == null && q == null) || (p.val == q.val) && IsSymmetricTree(p.left, q.right) && IsSymmetricTree(p.right, q.left);
+            }
+        }
     }
 }
