@@ -432,5 +432,19 @@ namespace leetcode
                 return (p == null && q == null) || (p.val == q.val) && IsSymmetricTree(p.left, q.right) && IsSymmetricTree(p.right, q.left);
             }
         }
+
+        //104.二叉树的最大深度
+        //https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+        public int MaxDepth(TreeNode root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + Math.Max(MaxDepth(root.left), MaxDepth(root.right));
+            }
+        }
     }
 }
