@@ -516,5 +516,86 @@ namespace leetcode
             }
             return false;
         }
+
+        //155.最小栈
+        //https://leetcode-cn.com/problems/min-stack/
+        public class MinStack
+        {
+            int[] stack = new int[10000];
+            Stack<int> min = new Stack<int>();
+            int i = -1;
+            public MinStack() { }
+            public void Push(int x)
+            {
+                if (min.Count == 0 || x <= min.Peek())
+                {
+                    min.Push(x);
+                }
+                stack[i++] = x;
+            }
+
+            public void Pop()
+            {
+                if (stack[i] == min.Peek())
+                {
+                    min.Pop();
+                }
+                i--;
+            }
+            public int Top()
+            {
+                return stack[i];
+            }
+            public int GetMin()
+            {
+                return min.Peek();
+            }
+        }
+
+        //160.相交链表
+        //https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+        public int CountNode(ListNode list)
+        {
+            int count = 0;
+            while (list != null)
+            {
+                count++;
+                list = list.next;
+            }
+            return count;
+        }
+        public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
+        {
+            if (headB == null || headA == null)
+            {
+                return null;
+            }
+            int CountA = CountNode(headA);
+            int CountB = CountNode(headB);
+            if (CountA > CountB)
+            {
+                for (int i = 0; i < CountA - CountB; i++)
+                {
+                    headA = headA.next;
+                }
+            }
+            else
+            {
+                for (int i = 0; i < CountB - CountA; i++)
+                {
+                    headB = headB.next;
+                }
+            }
+            while (headA != null)
+            {
+                if (headA == headB)
+                {
+                    return headA;
+                }
+                headA = headA.next;
+                headB = headB.next;
+            }
+            return null;
+        }
     }
 }
