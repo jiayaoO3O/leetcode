@@ -1,5 +1,5 @@
 # leetcode题解C#版,持续更新中.
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)[![996.ICU](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.ICU](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 | 题号 | 难度 |                             题目                             |
 | :--: | :--: | :----------------------------------------------------------: |
@@ -31,4 +31,5 @@
 | 160  | 简单 | [相交链表](https://jiayaoo3o.github.io/2019/05/14/160-相交链表/) |
 | 167  | 简单 | [两数之和 II - 输入有序数组](https://jiayaoo3o.github.io/2019/05/15/167-两数之和-II-输入有序数组/) |
 | 169  | 简单 | [求众数](https://jiayaoo3o.github.io/2019/05/15/169-求众数/) |
+| 172  | 简单 | [阶乘后的零](https://jiayaoo3o.github.io/2019/05/15/172-阶乘后的零/) |
 
