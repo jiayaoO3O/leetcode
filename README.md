@@ -30,4 +30,5 @@
 | 141  | 简单 | [环形链表](https://jiayaoo3o.github.io/2019/05/13/141-环形链表/) |
 | 160  | 简单 | [相交链表](https://jiayaoo3o.github.io/2019/05/14/160-相交链表/) |
 | 167  | 简单 | [两数之和 II - 输入有序数组](https://jiayaoo3o.github.io/2019/05/15/167-两数之和-II-输入有序数组/) |
+| 169  | 简单 | [求众数](https://jiayaoo3o.github.io/2019/05/15/169-求众数/) |
 
