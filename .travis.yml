@@ -1,5 +1,7 @@
 language: csharp
 mono: none
+dist: bionic
+sudo: required
 dotnet: 2.2.300
 script:
  - dotnet run
