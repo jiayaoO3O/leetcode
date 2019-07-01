@@ -49,5 +49,6 @@
 | 258  | 简单 | [各位相加](https://jiayaoo3o.github.io/2019/06/02/258-各位相加/) |
 | 263  | 简单 |   [丑数](https://jiayaoo3o.github.io/2019/06/03/263-丑数/)   |
 | 268  | 简单 | [缺失数字](https://jiayaoo3o.github.io/2019/06/06/268-缺失数字/) |
-| 278  | 简单 | [第一个错误的版本](https://jiayaoo3o.github.io/2019/06/07/278-第一个错误的版本/) 
+| 278  | 简单 | [第一个错误的版本](https://jiayaoo3o.github.io/2019/06/07/278-第一个错误的版本/) |
+| 283  | 简单 | [移动零](https://jiayaoo3o.github.io/2019/07/01/283-移动零/) |
 

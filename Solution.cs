@@ -1125,5 +1125,24 @@ namespace leetcode
         //这个函数放在这个位置是没有意义的.
         //唯一的目的是为了让代码不报错.
         //提交时不需要写这个函数.
+
+        //283.移动零
+        //https://leetcode-cn.com/problems/move-zeroes/
+        public void MoveZeroes(int[] nums)
+        {
+            int flag = 0;
+            foreach (int num in nums)
+            {
+                if (num != 0)
+                {
+                    nums[flag] = num;
+                    flag += 1;
+                }
+            }
+            for (int i = flag; i < nums.Length; i++)
+            {
+                nums[i] = 0;
+            }
+        }
     }
 }
