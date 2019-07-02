@@ -52,3 +52,4 @@
 | 278  | 简单 | [第一个错误的版本](https://jiayaoo3o.github.io/2019/06/07/278-第一个错误的版本/) |
 | 283  | 简单 | [移动零](https://jiayaoo3o.github.io/2019/07/01/283-移动零/) |
 | 292  | 简单 | [Nim游戏](https://jiayaoo3o.github.io/2019/07/02/292-Nim游戏/) |
+| 326  | 简单 |  [3的幂](https://jiayaoo3o.github.io/2019/07/02/326-3的幂/)  |
