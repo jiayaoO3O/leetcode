@@ -1,5 +1,5 @@
 # leetcode题解C#版,持续更新中.
-![https://github.com/jiayaoO3O/leetcode/actions](https://github.com/jiayaoO3O/leetcode/workflows/.NET%20Core/badge.svg)
+[![badge.svg](https://github.com/jiayaoO3O/leetcode/workflows/.NET%20Core/badge.svg)](https://github.com/jiayaoO3O/leetcode/actions)
 
 | 题号  | 难度  |                                                题目                                                |
 | :---: | :---: | :------------------------------------------------------------------------------------------------: |
