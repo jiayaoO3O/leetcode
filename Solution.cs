@@ -33,12 +33,7 @@ namespace leetcode
 
         
 
-        //28.实现strStr()
-        //https://leetcode-cn.com/problems/implement-strstr/
-        public int StrStr(string haystack, string needle)
-        {
-            return haystack.IndexOf(needle);
-        }
+
 
         //35.搜索插入位置
         //https://leetcode-cn.com/problems/search-insert-position/
