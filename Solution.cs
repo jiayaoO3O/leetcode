@@ -21,36 +21,7 @@ namespace leetcode
 
         
 
-        //217.存在重复元素
-        //https://leetcode-cn.com/problems/contains-duplicate/
-        public bool ContainsDuplicate(int[] nums)
-        {
-            if (nums.Length <= 1)
-            {
-                return false;
-            }
-            Array.Sort(nums);
-            // for (int i = 1; i < nums.Length; i++)
-            // {
-            //     if (nums[i] == nums[i - 1])
-            //     {
-            //         return true;
-            //     }
-            // }
-            HashSet<int> numSet = new HashSet<int>();
-            foreach (var num in nums)
-            {
-                if (numSet.Contains(num))
-                {
-                    return true;
-                }
-                else
-                {
-                    numSet.Add(num);
-                }
-            }
-            return false;
-        }
+        
 
         //225.用队列实现栈
         //https://leetcode-cn.com/problems/implement-stack-using-queues/
