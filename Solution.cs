@@ -9,31 +9,15 @@ namespace leetcode
     //     public ListNode next;
     //     public ListNode(int x) { val = x; }
     // }
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
+    // public class TreeNode
+    // {
+    //     public int val;
+    //     public TreeNode left;
+    //     public TreeNode right;
+    //     public TreeNode(int x) { val = x; }
+    // }
     class Solution
     {
-        
-
-        //104.二叉树的最大深度
-        //https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
-        public int MaxDepth(TreeNode root)
-        {
-            if (root == null)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1 + Math.Max(MaxDepth(root.left), MaxDepth(root.right));
-            }
-        }
-
         //121.买卖股票的最佳时机
         //https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
         public int MaxProfit(int[] prices)
