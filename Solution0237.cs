@@ -9,6 +9,5 @@ namespace leetcode
             node.val = node.next.val;//用下一个节点的数据覆盖当前节点.
             node.next = node.next.next;//删除下一个节点.
         }
-
     }
 }
