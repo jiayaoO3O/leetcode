@@ -18,25 +18,7 @@ namespace leetcode
     }
     class Solution
     {
-        //53.最大子序和
-        //https://leetcode-cn.com/problems/maximum-subarray/
-        public int MaxSubArray(int[] nums)
-        {
-            if (nums.Length == 0)
-            {
-                return 0;
-            }
-            int sum = 0;
-            int max = nums[0];
-            for (int i = 0; i < nums.Length; i++)
-            {
-                sum += nums[i];
-                sum = sum < 0 ? 0 : sum;
-
-                max = sum > max ? sum : max;
-            }
-            return max;
-        }
+        
 
         //58.最后一个单词的长度
         //https://leetcode-cn.com/problems/length-of-last-word/
