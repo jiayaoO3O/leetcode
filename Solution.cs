@@ -20,46 +20,6 @@ namespace leetcode
     {
         
 
-        //100.相同的树
-        //https://leetcode-cn.com/problems/same-tree/
-        public bool IsSameTree(TreeNode p, TreeNode q)
-        {
-            if (p == null && q == null)
-            {
-                return true;
-            }
-            if (p == null && q != null || p != null && q == null)
-            {
-                return false;
-            }
-            if (p.val != q.val)
-            {
-                return false;
-            }
-            else
-            {
-                return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
-            }
-        }
-
-        //101.对称二叉树
-        //https://leetcode-cn.com/problems/symmetric-tree/
-        public bool IsSymmetric(TreeNode root)
-        {
-            return IsSymmetricTree(root, root);
-        }
-        public bool IsSymmetricTree(TreeNode p, TreeNode q)
-        {
-            if (p != null && q == null || p == null && q != null)
-            {
-                return false;
-            }
-            else
-            {
-                return (p == null && q == null) || (p.val == q.val) && IsSymmetricTree(p.left, q.right) && IsSymmetricTree(p.right, q.left);
-            }
-        }
-
         //104.二叉树的最大深度
         //https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
         public int MaxDepth(TreeNode root)
